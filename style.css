@@ -44,17 +44,37 @@ body{
     
 }
 
-#output{
-	height:150px;
-	width:100px;
+#mmOutput{
+	height:325px;
+	width:325px;
 	font-size:30px;
+	border:5px yellow groove;
+	margin-right:auto;
+	margin-left:auto;
+	margin-top:200px;
 }
 
 #playerButtons {
 	display:none;
+	text-align:center;
 }
 
 .playerButtons {
+	display:block;
+	border:3.25px yellow solid;
+	border-radius:5px;
+	font-family:"Press Start 2P";
+	background-color:rgb(85, 129, 183);
+	width:275px;
+	height:50px;
+	font-size:30px;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:23px;
+}
+
+.playerButtons:active {
 	
 }
 
@@ -64,7 +84,7 @@ body{
 		display: inline-block;
 		width: 100px;
 		height: 100px;
-		margin-top:400px;
+		margin-top:120px;
 		text-align: center;
 		border-radius:55px;
 		border:5px #306B99 solid;
@@ -76,7 +96,7 @@ body{
 		display: inline-block;
 		width: 100px;
 		height: 100px;
-		margin-top:400px;
+		margin-top:120px;
 		text-align: center;
 		border-radius:55px;
 		border:5px #306B99 solid;
@@ -88,7 +108,7 @@ body{
 		display: inline-block;
 		width: 100px;
 		height: 100px;
-		margin-top:400px;
+		margin-top:120px;
 		text-align: center;
 		border-radius:55px;
 		border:5px #306B99 solid;
