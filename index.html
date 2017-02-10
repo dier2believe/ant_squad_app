@@ -4,7 +4,9 @@
         Ant Squad
     </title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style_2.css">
     <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    
     </head>
     
     <body>
@@ -23,7 +25,7 @@
                         <button id="fourPlayer" class="playerButtons">4 player</button>
                     </div>
                     <div id="instructions">
-                        <p>Whatever you want it to say.</p>
+                        <p>Instructions</p>
                     </div>
                 </div>
                 
@@ -35,13 +37,30 @@
             </div>
             
             <div id="gameScreen">
-                <div id="output" class="outputs">
+                <div id="playGameOutputs" class="outputs">
+                    <div id="output"></div>
+                    <input id="squareInput" type="text" placeHolder="#A">
+                    <button id="squareButton" class="someSquareButtonName">Enter</button>
+                    <button id="answerButton1" class="choiceButtons">Answer 1</button>
+                    <button id="answerButton2" class="choiceButtons">Answer 2</button>
+                    <button id="inventoryButton" class="choiceButtons">Inventory</button>
+                    <div id="boxFullOfStuff"></div>
+                    <button id="nextPlayerButton" class="choiceButtons">Next Player</button>
+                   
+                </div>
                     
                 </div>
                 <div id="fightSystemButtons">
                     <button id="fightButton"><a href="#" class="round3 color3">FIGHT!<span class="round3">Fight and kill</span></a></button>
                     <button id="runButton"><a href="#" class="round4 color4">FLEE!<span class="round4">Run yee coward</span></a></button>
                 </div>
+                <!--
+                <div id="playerScreenButtons">
+                    <button id="nextButton" class="someButton">Next</button>
+                    <button id="inventoryButton" class="someButton">Inventory</button>
+                </div>
+                -->
+               
             </div>
             
         </div>
